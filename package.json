@@ -1,0 +1,39 @@
+{
+  "name": "@boywithkeyboard/turnstile",
+  "version": "1.0.0",
+  "author": "Samuel Kopp (https://samuelkopp.de)",
+  "license": "Apache-2.0",
+  "description": "A type-safe server-side validator for Turnstile, Cloudflare's free CAPTCHA alternative.",
+  "funding": "https://github.com/sponsors/boywithkeyboard",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "./dist/index.d.ts",
+    "./dist/index.mjs",
+    "./dist/index.cjs"
+  ],
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "scripts": {
+    "build": "builder --esm --cjs && tsc"
+  },
+  "devDependencies": {
+    "@boywithkeyboard/builder": "^0.4.0",
+    "@types/node": "^20.8.10",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
