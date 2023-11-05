@@ -5,6 +5,7 @@
   "license": "Apache-2.0",
   "description": "A type-safe server-side validator for Turnstile, Cloudflare's free CAPTCHA alternative.",
   "funding": "https://github.com/sponsors/boywithkeyboard",
+  "repository": "github:boywithkeyboard/turnstile",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
