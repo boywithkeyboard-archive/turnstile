@@ -30,7 +30,7 @@
     "build": "builder --esm --cjs && tsc"
   },
   "devDependencies": {
-    "@boywithkeyboard/builder": "^0.4.2",
+    "@boywithkeyboard/builder": "^0.12.0",
     "@types/node": "^20.11.27",
     "typescript": "^5.4.2"
   },
