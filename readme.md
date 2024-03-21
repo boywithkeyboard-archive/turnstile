@@ -8,7 +8,7 @@
 #### Deno
 
 ```ts
-import { turnstile } from 'https://den.ooo/turnstile'
+import { turnstile } from 'https://esm.sh/@boywithkeyboard/turnstile'
 ```
 
 #### Node.js
@@ -24,7 +24,6 @@ import { turnstile } from '@boywithkeyboard/turnstile'
 ### Usage
 
 ```ts
-// e.g.
 async function handleRequest(req) {
   const body = await req.formData()
 
