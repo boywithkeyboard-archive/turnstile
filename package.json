@@ -1,6 +1,6 @@
 {
   "name": "@boywithkeyboard/turnstile",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "author": "Samuel Kopp (https://samuelkopp.de)",
   "license": "MIT",
   "description": "A type-safe server-side validator for Turnstile, Cloudflare's free CAPTCHA solution.",
